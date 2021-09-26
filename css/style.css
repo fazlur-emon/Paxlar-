@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+.top-header{
+    background: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.top-header p{
+    margin: 0;
+    padding: 0;
+    color: gray;
+   font-size: 14px;
+}
+.top-header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.top-header ul li a{
+   text-decoration: none;
+   color: gray;
+   font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f78f2f;
+    transition: .4s all;
+}
+.btn-join{
+    padding: 0;
+    background: #f78f2f;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+.btn-join:hover{
+    color: white;
+    background: #f7902fd9;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hg{
+    min-height: 86vh;
+}
+.banner h1{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.count{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin: 50px 0px;
+    text-align: center;
+}
+.count-item h4{
+    font-size: 20px;
+}
+.count-item h6{
+    font-size: 12px;
+}
+.btn-contact{
+    padding: 0;
+    background: transparent;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+.btn-contact:hover{
+    background: #f78f2f;
+    color: white;
+    border: none;
+    transition: 0.4s all ease-in-out;
+}
+.about{
+
+}
+.about-items{
+    border: 1px solid rgba(213, 211, 211, 0.693);
+    padding: 20px;
+    color: black;
+    transition: .3s ease-in-out;
+    
+}
+.about-items:hover{
+    background-image: url(../images/bitcoin.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.about-items:hover i{
+    color: white;
+}
+.about-items h5{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.about-items i{
+   font-size: 60px;
+   margin-bottom: 30px;
+   color: #f78f2f;
+}
+.about-items p{
+    margin: 15px 0px;
+    font-size: 14px;
+}
+.services{
+    
+}
+
+.services:hover span{
+    width: 100px;
+    height: 2px;
+    transition: .2s all ease-in-out;
+}
+.services h2{
+     font-weight: 700;
+     font-size: 25px;
+}
+.services p{
+   
+}
+.services span{
+    width: 0px;
+    height: 0px;
+    background: #f78f2f;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.service-item{
+    
+}
+.service-item img{
+    margin: 20px 0px;
+}
+.service-item h5{
+    font-weight: 700;
+    margin: 15px 0px;
+}
+.service-item p{
+
+}
+.btn-view{
+    color: black;
+    border: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .4s all ;
+    margin-top: 100px;
+}
+.btn-view:hover{
+    background: #f78f2f;
+    border: none;
+    color: white;
+}
+.Wallet{
+    background-image:url(../images/phone-bg.png) ;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;
+}
+.phone{
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    transform: translateY(-50%,-50%);
+    width: 60%;
+}
+.phone img{
+   
+}
+.Wallet h2{
+    color: white;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+.Wallet span{
+    display: block;
+    margin-top: 5px;
+    height: 0px;
+    width: 0px;
+    margin-bottom: 40px;
+}
+.Wallet:hover span {
+    height: 2px;
+    width: 50px;
+    background: #f78f2f;
+    transition: .3s all ease-in;
+}
+.wallet-info {
+    color: white;
+}
+.wallet-info p{
+    font-size: 14px;
+}
+.wallet-info h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.box span{
+    background: transparent !important;
+    display: block;
+    height: 40px !important;
+    width: 40px !important;
+    border: 2px solid #f78f2f !important;
+    transform: rotate(
+        45deg) !important;
+    border-radius: 3px;  
+    margin-right: 30px;  
+}
+.wallet-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.transaction{
+    background: #f78f2f;
+    text-align: center;
+    padding: 20px;
+}
+.transaction h1{
+    font-weight: 700;
+    color: white;
+}
+.transaction p{
+    color: white;
+}
+.equipment{
+    padding: 150px;
+    position: relative;
+}
+.equipment img{
+    /* display: none; */
+}
+.safe{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-30%,-10%);  
+}  
+.safe p{
+    font-weight: 500;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(250, 50, 50);
+    transform: rotate(45deg);
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.icon i{
+    transform: rotate(-45deg);
+    color: rgb(250, 50, 50);
+}
+.mobile{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%,-50%);
+    
+}
+.mobile p{
+    font-weight: 500;
+}
+.mobile .icon{
+    border: 2px solid rgb(25, 184, 39);
+}
+.mobile .icon i{
+    color: rgb(25, 184, 39);
+    transform: rotate(-45deg);
+}
+.bag{ 
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+.bag p{
+     font-weight: 500;
+}
+.bag .icon{
+    border: 2px solid rgb(12, 174, 192);
+}
+.bag .icon i{
+     color:rgb(12, 174, 192) ;
+}
+.expert{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    transform: translate(-25%,-10%);
+}
+.expert p{
+     font-weight: 500;
+}
+.expert .icon{
+    border: 2px solid rgb(12, 174, 192);
+}
+.expert .icon i{
+    color:rgb(12, 174, 192) ;
+}
+.exchange{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    transform: translate(-45%,-15%);
+}
+.exchange p{
+    font-weight: 500;
+}
+.exchange .icon{
+    border: 2px solid rgb(25, 184, 39);
+}
+.exchange .icon i{
+    color: rgb(25, 184, 39);
+}
+.buys{
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+    transform: translate(-25%,-10%);
+
+}
+.buys p{
+   font-weight: 500;
+}
+.buys .icon{
+
+}
+.buys .icon i{
+   
+}
+.supports{
+    
+}
+.supports h2{
+    font-weight: 700;
+}
+.supports p{
+
+}
+.supports span{
+     display: block;
+     height: 0px;
+     width: 00px;
+     background: #f78f2f;
+     margin: auto;
+     transition: .3s all ease-in;
+}
+.supports:hover span{
+    height: 2px;
+    width: 100px;
+}
+.members{
+    
+}
+.member-img img{
+
+}
+.members h5{
+    font-weight: 700;
+    margin-top: 20px;
+}
+.members p{
+    font-weight: 500;
+    color: #f78f2f;
+}
+.contact{
+    background-image: url(../images/contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+}
+.contact h2{
+    color: white;
+}
+.contact span{
+    display: block;
+    height: 2px;
+    width: 100px;
+     background: #f78f2f;
+     margin: auto;
+     
+}
+form{
+    margin-top: 50px;
+}
+input{
+    background: transparent !important;
+    border: none !important;
+    border: 1px solid white !important;
+    border-radius: 5px !important;
+    color: white !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+}
+textarea{
+    background: transparent !important;
+    border: none !important;
+    border: 1px solid white !important;
+    border-radius: 5px !important;
+    color: white !important;
+    padding: 10px !important;
+}
+input:focus{ 
+    outline: none !important;
+    box-shadow: none !important;
+}
+textarea:focus{ 
+    outline: none !important;
+    box-shadow: none !important;
+}
+input[type="submit"]{
+    border: none !important;
+    background: transparent !important;
+    background: #f78f2f !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 50px !important;
+    width: 10% !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+    padding: 10px 20px !important;
+    color: white !important;
+}
+input[type="submit"]:hover{
+    background: #e17006 !important;
+    transition: .5s all;
+}
+input::placeholder , textarea::placeholder{
+    color: white !important;
+}
+.blog{
+   
+}
+.blog h2{
+   font-weight: 700;
+}
+.blog p{
+
+}
+.blog span{
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    background: #f78f2f;
+    display: block;
+}
+.blog h4{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+}
+.blog h6{
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+.blog-content{
+    border: 1px solid rgba(128, 128, 128, 0.46);
+    padding: 10px;
+    border-radius: 10px;
+}
+.blog-img{
+    position: relative;
+}
+.blog-img img{
+    width: 100%;
+}
+.blog-icon{
+    
+}
+.blog-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 5px;
+}
+.blog-icon ul li{
+
+}
+.blog-icon i {
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #f78f2f;
+    border-radius: 30px;
+    border: 2px solid white;
+    left: 14%;
+    bottom: -538%;
+    transform: translate(-14%,-30%);
+    color: white;
+}
+.blog-icon ul li p{
+
+}
+.client {
+    
+}
+.client h2{
+     font-weight: 700;
+}
+.client span {
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    background: #f78f2f;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.client p{
+
+}
+.client-img{
+    position: relative;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-img{
+    
+}
+.client-img img{
+    background: grey;
+     width: 10%;
+     height: 150px;
+     width: 150px;
+     border-radius: 150px;
+     padding: 10px;
+}
+.client-icon{
+    position: absolute;
+}   
+.client-icon i{
+    background: #FA8E2B;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: 5%;
+    left: 50%;
+    font-size: 20px;
+}
+footer{
+    background: black;
+    margin-top: 150px;
+    border-top: 5px solid #f78f2f;
+    padding: 10px;
+}
+.left-content{
+    margin-top: 20px;
+}
+.left-content p{
+    color: white;
+    margin: 24px 0px;
+}
+.left-content ul{
+    margin: 0;
+    padding:0 ;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-content ul li{
+
+}
+.left-content ul li i{
+    color: grey;
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.left-content ul li i:hover{
+    color: rgb(21, 78, 184);
+    border: 1px solid rgb(21, 78, 184);
+}
+.left-2{
+    margin-top: 20px;
+}
+.left-2 h3{
+   color: white;
+   margin-top: 20px;
+   text-transform: uppercase;
+}
+.left-2 span{
+    width: 50px;
+    height: 2px;
+    background: #f78f2f;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    margin-bottom: 30px;
+}
+.location i{
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.mid-content{
+    color: white;
+    margin-top: 20px;
+}
+.mid-content h3{
+    text-transform: uppercase;
+}
+.mid-content span{
+    width: 50px;
+    height: 2px;
+    background: #f78f2f;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mid-content p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.news{
+    color: white;
+    margin-top: 20px;
+}
+.news h3{
+    text-transform: uppercase;
+}
+.news span{
+    width: 50px;
+    height: 2px;
+    background: #f78f2f;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.news p{
+   color: grey;
+   margin-top: 30px;
+}
+.footer-form{
+    
+}
+.footer-form input::placeholder{
+  
+}
